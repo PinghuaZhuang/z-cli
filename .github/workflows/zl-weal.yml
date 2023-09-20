@@ -1,0 +1,49 @@
+name: zl-weal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* 12 * * 2,4'
+
+permissions:
+  contents: write
+
+jobs:
+  Tuesday-welfare-officer:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - uses: allenevans/set-env@v2.0.0
+        with:
+          ZL_ROLEID: ${{secrets.ZL_ROLEID}}
+          ZL_SERVERID: ${{secrets.ZL_SERVERID}}
+          SEND_KEY: ${{secrets.SEND_KEY}}
+          BARK_KEY: ${{secrets.BARK_KEY}}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install Deps
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Run
+        run: pnpm run action:zlweal
