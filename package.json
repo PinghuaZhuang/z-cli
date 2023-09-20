@@ -17,9 +17,9 @@
     "z": "./bin/z.js"
   },
   "scripts": {
+    "action:zlweal": "ts-node -P ./tsconfig.actions.json ./src/zl-weal-action/index.ts",
     "build": "rollup -c",
     "build:actions": "tsc -p ./tsconfig.actions.json",
-    "action:zlweal": "ts-node -P ./tsconfig.actions.json ./src/zl-weal-action/index.ts",
     "dev": "rollup -c -w"
   },
   "dependencies": {

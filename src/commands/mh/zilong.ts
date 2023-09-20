@@ -1,21 +1,16 @@
 import axios from 'axios';
 import CliTable from 'cli-table';
+import { parseSecretToArr } from '@/utils';
 
 type UserInfo = {
   roleid: string;
   server: string;
 };
 
-const users: UserInfo[] = [
-  {
-    roleid: '3391682085992409183',
-    server: '6023',
-  },
-  {
-    roleid: '3410269554617355795',
-    server: '6057',
-  },
-];
+const users: UserInfo[] = parseSecretToArr(process.env.ZL_USERS!).map(o => ({
+  roleid: o[0],
+  server: o[1],
+}));
 
 async function enterUserInfo(userInfo: UserInfo, code: string) {
   return axios

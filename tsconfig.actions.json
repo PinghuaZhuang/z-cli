@@ -3,6 +3,9 @@
     "sourceMap": false,
     "baseUrl": "./",
     "outDir": "./actions",
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
   },
 }

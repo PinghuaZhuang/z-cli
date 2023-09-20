@@ -11,11 +11,24 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "allowSyntheticDefaultImports": true,
     "types": []
   },
-  "exclude": ["node_modules", "dist", "**/__test__", "test", "docs", "tests"],
-  "include": ["typings.d.ts", "src/**/*", "tsconfig.actions.json"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/__test__",
+    "test",
+    "docs",
+    "tests"
+  ],
+  "include": [
+    "typings.d.ts",
+    "src/**/*",
+    "tsconfig.actions.json"
+  ]
 }
