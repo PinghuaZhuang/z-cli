@@ -40,7 +40,7 @@ Promise.allSettled(
     `周二福利官`,
     values.reduce((pre, cur) => {
       // @ts-ignore
-      return pre + cur.value ?? cur.reason;
-    }, ''),
+      return pre + (cur.value ?? cur.reason) + '\n';
+    }, '').replace(/\n$/, ''),
   );
 });
