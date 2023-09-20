@@ -21,6 +21,8 @@ export function notifyWithBark(
   group = 'zlgame',
 ) {
   return axios.get(
-    `https://api.day.app/${process.env.BARK_KEY}/${title}/${content}?group=${group}`,
+    `https://api.day.app/${process.env.BARK_KEY}/${encodeURIComponent(
+      title,
+    )}/${encodeURIComponent(content)}?group=${group}`,
   );
 }
