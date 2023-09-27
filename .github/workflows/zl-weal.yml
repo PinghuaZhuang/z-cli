@@ -3,7 +3,7 @@ name: zl-weal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* 12 * * 2,4'
+    - cron: '30 5 * * 2'
 
 permissions:
   contents: write
