@@ -42,7 +42,6 @@ export default async function exchange(code: string) {
   const result = await Promise.allSettled(
     users.map(async (o) => await enterUserInfo(o, code)),
   );
-
   const table = new CliTable({
     style: {
       head: ['green'],
@@ -52,7 +51,7 @@ export default async function exchange(code: string) {
   result.forEach((o, index) => {
     table.push([
       users[index].roleid,
-      o.status === 'fulfilled' && o.value.status === '200' ? '✔' : '❌',
+      o.status === 'fulfilled' && String(o.value.status) !== '200' ? '✔' : '❌',
     ]);
   });
   console.log(table.toString());
