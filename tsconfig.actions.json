@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "sourceMap": false,
+    "esModuleInterop": true,
     "baseUrl": "./",
     "outDir": "./actions",
     "types": ["node"],
