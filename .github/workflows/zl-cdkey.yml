@@ -1,9 +1,9 @@
-name: zl-weal
+name: zl-cdkey
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5 * * 2'
+    - cron: '40 5 * * 2'
 
 permissions:
   contents: write
@@ -44,8 +44,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
+      - uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+      - run: chrome --version
+
       - name: Install Deps
         run: pnpm install --no-frozen-lockfile
 
       - name: Run
-        run: pnpm run action:zlweal
+        run: pnpm run action:zlcdkey

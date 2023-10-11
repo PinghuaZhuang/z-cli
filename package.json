@@ -17,6 +17,7 @@
     "z": "./bin/z.js"
   },
   "scripts": {
+    "action:zlcdkey": "ts-node -P ./tsconfig.actions.json ./src/zl-cdkey-action/index.ts",
     "action:zlweal": "ts-node -P ./tsconfig.actions.json ./src/zl-weal-action/index.ts",
     "build": "rollup -c",
     "build:actions": "tsc -p ./tsconfig.actions.json",
@@ -27,13 +28,16 @@
     "chalk": "^2.4.2",
     "cli-table": "^0.3.1",
     "commander": "^2.20.3",
-    "inquirer": "^6.5.0"
+    "dayjs": "^1.11.10",
+    "inquirer": "^6.5.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/cli-table": "^0.3.0",
     "@types/inquirer": "^9.0.3",
+    "@types/lodash": "^4.14.199",
     "@types/node": "^20.6.3",
-    "puppeteer": "^19.11.0",
+    "puppeteer": "^19.11.1",
     "rollup": "^1.17.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-typescript": "^1.0.1",

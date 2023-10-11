@@ -7,7 +7,7 @@ type UserInfo = {
   server: string;
 };
 
-const users: UserInfo[] = parseSecretToArr(process.env.ZL_USERS!).map(o => ({
+const users: UserInfo[] = parseSecretToArr(process.env.ZL_USERS!).map((o) => ({
   roleid: o[0],
   server: o[1],
 }));
@@ -51,9 +51,14 @@ export default async function exchange(code: string) {
   result.forEach((o, index) => {
     table.push([
       users[index].roleid,
-      o.status === 'fulfilled' && String(o.value.status) !== '200' ? '✔' : '❌',
+      o.status === 'fulfilled' &&
+      (String(o.value.info) === '115' ||
+        String(o.value.info) === '104' ||
+        String(o.value.info) === '114')
+        ? '✔'
+        : '❌',
     ]);
   });
+  console.log(`code: ${code}`);
   console.log(table.toString());
-  process.exit();
 }
