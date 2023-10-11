@@ -17,8 +17,8 @@
     "z": "./bin/z.js"
   },
   "scripts": {
-    "action:zlcdkey": "ts-node -P ./tsconfig.actions.json ./src/zl-cdkey-action/index.ts",
-    "action:zlweal": "ts-node -P ./tsconfig.actions.json ./src/zl-weal-action/index.ts",
+    "action:zlcdkey": "ts-node -P ./tsconfig.actions.json -r tsconfig-paths/register ./src/zl-cdkey-action/index.ts",
+    "action:zlweal": "ts-node -P ./tsconfig.actions.json -r tsconfig-paths/register ./src/zl-weal-action/index.ts",
     "build": "rollup -c",
     "build:actions": "tsc -p ./tsconfig.actions.json",
     "dev": "rollup -c -w"

@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { notifyWithBark } from '../utils/notify';
-import { parseSecretToArr } from '../utils';
+import { notifyWithBark } from '@/utils/notify';
+import { parseSecretToArr } from '@/utils';
 
 const mzUrl = 'http://activity.zlongame.com';
 
