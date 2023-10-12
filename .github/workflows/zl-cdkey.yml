@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  Tuesday-welfare-officer:
+  exchange-keys:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
