@@ -59,6 +59,7 @@ async function getCacheKeys() {
   const cacheKeys = (await getCacheKeys()).split(',');
   const keys = (await getCdkeys()) as string[];
   const newKeys = difference(keys, cacheKeys);
+  console.log(`>>> 获取到的首页所有礼包码: ${keys.join(', ')}`);
 
   if (newKeys.length <= 0) {
     console.log(`>>> 今日没有礼包码.`);
