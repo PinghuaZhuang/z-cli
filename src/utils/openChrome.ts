@@ -9,7 +9,7 @@ export default async function (cb: (page: Page) => Promise<unknown>, url: string
   return new Promise(async (resove, reject) => {
     const datadir = path.resolve(__dirname, '../tmp/profile/');
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: 'new',
       // openInExistingWindow: true,
       ignoreHTTPSErrors: true,
       userDataDir: datadir,
