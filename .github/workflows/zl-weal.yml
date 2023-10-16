@@ -22,7 +22,6 @@ jobs:
           ZL_SERVERID: ${{secrets.ZL_SERVERID}}
           SEND_KEY: ${{secrets.SEND_KEY}}
           BARK_KEY: ${{secrets.BARK_KEY}}
-          ZL_USERS: ${{secrets.ZL_USERS}}
           TOKEN: ${{secrets.TOKEN}}
 
       - name: Install pnpm

@@ -7,10 +7,23 @@ type UserInfo = {
   server: string;
 };
 
-const users: UserInfo[] = parseSecretToArr(process.env.ZL_USERS!).map((o) => ({
-  roleid: o[0],
-  server: o[1],
-}));
+const token = process.env.TOKEN;
+
+export async function getUsers() {
+  const result = await axios.get(
+    'https://api.github.com/repos/pinghuazhuang/z-cli/issues/2',
+    {
+      headers: {
+        Accept: 'application/vnd.github+json',
+        Authorization: `token ${token}`,
+      },
+    },
+  );
+  return parseSecretToArr(result.data.body).map((o) => ({
+    roleid: o[0],
+    server: o[1],
+  }));
+}
 
 async function enterUserInfo(userInfo: UserInfo, code: string) {
   return axios
@@ -36,6 +49,8 @@ async function enterUserInfo(userInfo: UserInfo, code: string) {
 }
 
 export default async function exchange(code: string) {
+  const users: UserInfo[] = await getUsers();
+
   for (const [k, v] of Object.entries(users)) {
     await enterUserInfo(v, code);
   }

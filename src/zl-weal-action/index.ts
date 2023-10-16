@@ -1,10 +1,10 @@
 import axios from 'axios';
 import { notifyWithBark } from '@/utils/notify';
-import { parseSecretToArr } from '@/utils';
+import { getUsers } from '@/commands/mh/zilong';
 
 const mzUrl = 'http://activity.zlongame.com';
 
-function draw([roleid, ext1]: [string, string]) {
+function draw({ roleid, server: ext1 }: { roleid: string; server: string }) {
   return axios
     .get(`${mzUrl}/activity/cmn/lot/wheel.do`, {
       params: {
@@ -33,14 +33,16 @@ function draw([roleid, ext1]: [string, string]) {
     });
 }
 
-Promise.allSettled(
-  (parseSecretToArr(process.env.ZL_USERS!) as [string, string][]).map(draw),
-).then((values) => {
-  notifyWithBark(
-    `周二福利官`,
-    values.reduce((pre, cur) => {
-      // @ts-ignore
-      return pre + (cur.value ?? cur.reason) + '\n';
-    }, '').replace(/\n$/, ''),
-  );
-});
+(async () => {
+  Promise.allSettled((await getUsers()).map(draw)).then((values) => {
+    notifyWithBark(
+      `周二福利官`,
+      values
+        .reduce((pre, cur) => {
+          // @ts-ignore
+          return pre + (cur.value ?? cur.reason) + '\n';
+        }, '')
+        .replace(/\n$/, ''),
+    );
+  });
+})();
