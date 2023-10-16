@@ -8,4 +8,4 @@
 
 [![zl-cdkey](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-cdkey.yml/badge.svg)](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-cdkey.yml)
 
-福利码来源数据: [wiki.biligame.com/langrisser](https://wiki.biligame.com/langrisser/%E5%85%91%E6%8D%A2%E7%A0%81)
+福利码数据来源: [wiki.biligame.com/langrisser](https://wiki.biligame.com/langrisser/%E5%85%91%E6%8D%A2%E7%A0%81)
