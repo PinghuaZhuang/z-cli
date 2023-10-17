@@ -14,17 +14,19 @@ function draw({ roleid, server: ext1 }: { roleid: string; server: string }) {
       },
     })
     .then(({ data: { data } }) => {
+      console.log('Draw Result:', data);
+      const roleidChunk = roleid.slice(roleid.length - 4, roleid.length);
       if (data.success) {
-        return Promise.resolve(`${ext1}: 恭喜您！抽中${data.info.name}`);
+        return Promise.resolve(`${roleidChunk}: 恭喜您！抽中${data.info.name}`);
       }
       switch (Number.parseInt(data.code)) {
         case 15:
           return Promise.resolve(
-            `${ext1}: 本周您已经抽取过奖励啦～\n已为您发放奖励，请前往游戏内邮箱查看`,
+            `${roleidChunk}: 本周您已经抽取过奖励啦～\n已为您发放奖励，请前往游戏内邮箱查看`,
           );
         case 24:
           return Promise.resolve(
-            `${ext1}: 抽奖活动将于周二开启\n请指挥官耐心等待哦~`,
+            `${roleidChunk}: 抽奖活动将于周二开启\n请指挥官耐心等待哦~`,
           );
 
         default:
