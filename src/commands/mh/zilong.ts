@@ -1,29 +1,11 @@
 import axios from 'axios';
 import CliTable from 'cli-table';
-import { parseSecretToArr } from '@/utils';
+import { getUsers } from '@/utils';
 
 type UserInfo = {
   roleid: string;
   server: string;
 };
-
-const token = process.env.TOKEN;
-
-export async function getUsers() {
-  const result = await axios.get(
-    'https://api.github.com/repos/pinghuazhuang/z-cli/issues/2',
-    {
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `token ${token}`,
-      },
-    },
-  );
-  return parseSecretToArr(result.data.body).map((o) => ({
-    roleid: o[0],
-    server: o[1],
-  }));
-}
 
 async function enterUserInfo(userInfo: UserInfo, code: string) {
   return axios

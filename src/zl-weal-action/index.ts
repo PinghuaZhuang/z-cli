@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { notifyWithBark } from '@/utils/notify';
-import { getUsers } from '@/commands/mh/zilong';
+import { getUsers } from '@/utils';
 
 const mzUrl = 'http://activity.zlongame.com';
 
