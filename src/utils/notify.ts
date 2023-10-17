@@ -23,6 +23,8 @@ export function notifyWithBark(
   return axios.get(
     `https://api.day.app/${process.env.BARK_KEY}/${encodeURIComponent(
       title,
-    )}/${encodeURIComponent(content)}?group=${group}`,
+    )}/${encodeURIComponent(content)}?group=${group}&icon=${encodeURIComponent(
+      'http://mz.zlongame.com/img/new_favicon.ico',
+    )}`,
   );
 }
