@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "author": "Jrain Lau",
+  "type": "module",
   "bin": {
     "z": "./bin/z.js"
   },
@@ -33,14 +34,14 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-typescript": "^11.1.5",
     "@types/cli-table": "^0.3.0",
     "@types/inquirer": "^9.0.3",
     "@types/lodash": "^4.14.199",
     "@types/node": "^20.6.3",
     "puppeteer": "^19.11.1",
-    "rollup": "^1.17.0",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-typescript": "^1.0.1",
+    "rollup": "^4.1.4",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "tslib": "^2.6.2",

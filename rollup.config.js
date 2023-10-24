@@ -1,6 +1,5 @@
-import typescript from "rollup-plugin-typescript";
-import common from "rollup-plugin-commonjs";
-
+import typescript from '@rollup/plugin-typescript';
+import commonjs from '@rollup/plugin-commonjs';
 export default {
   input: "./src/commands/index.ts",
   output: [
@@ -9,5 +8,5 @@ export default {
       format: "commonjs",
     },
   ],
-  plugins: [common(), typescript()],
+  plugins: [commonjs(), typescript()],
 };
