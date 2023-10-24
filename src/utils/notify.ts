@@ -19,7 +19,7 @@ export function notifyWithBark(
   title: string,
   content: string,
   group = 'zlgame',
-  icon = 'http://mz.zlongame.com/img/new_favicon.ico',
+  icon = 'https://mz.zlongame.com/img/icon/h131.png',
 ) {
   return axios.get(
     `https://api.day.app/${process.env.BARK_KEY}/${encodeURIComponent(
