@@ -3,6 +3,10 @@ import dayjs from 'dayjs';
 
 const token = process.env.TOKEN;
 
+export function sleep(delay: number) {
+  return new Promise(resolve => setTimeout(resolve, delay))
+}
+
 /**
  * 解析 secret 为数组
  * @example name:msg,name2:msg2 => [[name, msg], [name2, msg2]]

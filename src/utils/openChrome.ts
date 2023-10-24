@@ -1,10 +1,6 @@
 import puppeteer, { Page } from 'puppeteer';
 import path from 'path';
 
-export function sleep(delay: number) {
-  return new Promise(resolve => setTimeout(resolve, delay))
-}
-
 export default async function (cb: (page: Page) => Promise<unknown>, url: string) {
   return new Promise(async (resove, reject) => {
     const datadir = path.resolve(__dirname, '../tmp/profile/');

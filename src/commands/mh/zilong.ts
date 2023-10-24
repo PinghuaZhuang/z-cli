@@ -1,6 +1,6 @@
 import axios from 'axios';
 import CliTable from 'cli-table';
-import { getUsers } from '@/utils';
+import { getUsers, sleep } from '@/utils';
 
 const successCode = {
   115: '兑换成功',
@@ -47,11 +47,11 @@ async function enterUserInfo(userInfo: UserInfo, code: string) {
 export default async function exchange(code: string) {
   const users: UserInfo[] = await getUsers();
 
-  for (const [k, v] of Object.entries(users)) {
-    await enterUserInfo(v, code);
-  }
   const result = await Promise.allSettled(
-    users.map(async (o) => await enterUserInfo(o, code)),
+    users.map(async (o) => {
+      await sleep(500);
+      return await enterUserInfo(o, code);
+    }),
   );
   const table = new CliTable({
     style: {

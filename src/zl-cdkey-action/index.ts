@@ -2,11 +2,11 @@
  * @file 自动兑换福利码
  * 网友收集的兑换码: wiki.biligame.com/langrisser/%E5%85%91%E6%8D%A2%E7%A0%81
  */
-import openChrome, { sleep } from '@/utils/openChrome';
+import openChrome from '@/utils/openChrome';
 import { difference } from 'lodash';
 import exchange from '@/commands/mh/zilong';
 import { notifyWithBark } from '@/utils/notify';
-import { getIssues, setIssues } from '@/utils';
+import { getIssues, setIssues, sleep } from '@/utils';
 
 async function getCdkeys() {
   return openChrome(async (page) => {
