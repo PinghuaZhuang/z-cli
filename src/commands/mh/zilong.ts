@@ -1,5 +1,5 @@
 import axios from 'axios';
-import CliTable from 'cli-table';
+import CliTable from 'cli-table3';
 import { getUsers, sleep } from '@/utils';
 
 const successCode = {
