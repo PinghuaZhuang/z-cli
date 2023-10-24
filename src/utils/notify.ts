@@ -3,7 +3,7 @@ import axios from 'axios';
 /**
  * 通过server酱推送消息
  * https://sct.ftqq.com
- * @param msgTile 消息内容, 不支持内容
+ * @param msgTile 消息标题, 不支持内容
  */
 export function notifyWithSct(msgTile: string) {
   return axios.get(
