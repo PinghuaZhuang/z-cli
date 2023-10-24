@@ -2,6 +2,20 @@ import axios from 'axios';
 import CliTable from 'cli-table';
 import { getUsers } from '@/utils';
 
+const successCode = {
+  115: '兑换成功',
+  104: '礼包码已使用',
+  114: '礼包码已使用',
+};
+
+const failCode = {
+  101: '礼包码不存在',
+  102: '礼包码不存在',
+  113: '当前礼包码在该渠道下不能使用',
+  108: '当前礼包码已过期',
+  111: '同类型礼包码无法重复使用',
+};
+
 type UserInfo = {
   roleid: string;
   server: string;
@@ -46,14 +60,17 @@ export default async function exchange(code: string) {
   });
 
   result.forEach((o, index) => {
+    const infoCode = o.status === 'fulfilled' ? String(o.value.info) : 'error';
+
     table.push([
       users[index].roleid,
       o.status === 'fulfilled' &&
-      (String(o.value.info) === '115' ||
-        String(o.value.info) === '104' ||
-        String(o.value.info) === '114')
+      // @ts-ignore
+      successCode[infoCode]
         ? '✔'
         : '❌',
+      // @ts-ignore
+      successCode[infoCode] ?? failCode[infoCode] ?? '兑换失败',
     ]);
   });
   console.log(`code: ${code}`);
