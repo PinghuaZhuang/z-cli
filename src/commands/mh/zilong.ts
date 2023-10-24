@@ -58,12 +58,15 @@ export default async function exchange(code: string) {
       head: ['green'],
     },
   });
+  table.push(['roleid', 'result', 'message']);
 
   result.forEach((o, index) => {
     const infoCode = o.status === 'fulfilled' ? String(o.value.info) : 'error';
+    const roleid = users[index].roleid;
+    const roleidChunk = roleid.slice(roleid.length - 4, roleid.length);
 
     table.push([
-      users[index].roleid,
+      roleidChunk,
       o.status === 'fulfilled' &&
       // @ts-ignore
       successCode[infoCode]
