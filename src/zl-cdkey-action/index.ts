@@ -7,6 +7,7 @@ import { difference } from 'lodash';
 import exchange from '@/commands/mh/zilong';
 import { notifyWithBark } from '@/utils/notify';
 import { getIssues, setIssues, sleep } from '@/utils';
+import dayjs from 'dayjs';
 
 async function getCdkeys() {
   return openChrome(async (page) => {
@@ -42,7 +43,10 @@ async function getCacheKeys() {
     return;
   }
 
-  notifyWithBark('有新的礼包码', newKeys.join(','));
+  notifyWithBark(
+    `${dayjs().format('YYYY-MM-DD')} 有新的礼包码`,
+    newKeys.join(','),
+  );
 
   await Promise.allSettled(newKeys.map(exchange));
   await setCacheKeys(keys);
