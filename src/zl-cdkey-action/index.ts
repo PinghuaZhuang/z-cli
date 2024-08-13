@@ -36,7 +36,7 @@ async function getCacheKeys() {
 (async () => {
   const cacheKeys = (await getCacheKeys()).split(',');
   const keys = (await getCdkeys()) as string[];
-  const newKeys = difference(keys, cacheKeys);
+  const newKeys = difference(keys, cacheKeys).splice(0, 10);
   console.log(`>>> 获取到的首页所有礼包码: ${keys.join(', ')}`);
 
   if (newKeys.length <= 0) {
