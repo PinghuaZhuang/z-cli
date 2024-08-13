@@ -33,7 +33,7 @@ async function getIssues(number = 1) {
             Authorization: `token ${token}`,
         },
     });
-    return result.data.body;
+    return result.data.body || '';
 }
 
 const successCode = {

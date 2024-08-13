@@ -21,7 +21,7 @@ async function getCdkeys() {
     return await page.$$eval('.bikited-copy', (_) =>
       _.map((o) => (o as HTMLSpanElement).innerText),
     );
-  }, 'https://wiki.biligame.com/langrisser/%E5%85%91%E6%8D%A2%E7%A0%81');
+  }, 'https://wiki.biligame.com/langrisser/Giftcode');
 }
 
 async function setCacheKeys(keys: string[]) {

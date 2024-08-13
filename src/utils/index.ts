@@ -52,5 +52,5 @@ export async function getIssues(number = 1) {
       },
     },
   );
-  return result.data.body;
+  return result.data.body || '';
 }
