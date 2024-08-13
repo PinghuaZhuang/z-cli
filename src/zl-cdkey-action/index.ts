@@ -11,6 +11,7 @@ import dayjs from 'dayjs';
 
 async function getCdkeys() {
   return openChrome(async (page) => {
+    await sleep(3000);
     const element = await page.waitForSelector('#load');
     if (element == null) {
       console.error(`获取 #load 元素失败`);

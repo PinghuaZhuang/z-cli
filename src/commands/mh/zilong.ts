@@ -41,7 +41,8 @@ async function enterUserInfo(userInfo: UserInfo, code: string) {
         },
       },
     )
-    .then((res) => res.data);
+    .then((res) => res.data)
+    .catch(e => Promise.reject(userInfo));
 }
 
 export default async function exchange(code: string) {
@@ -50,7 +51,7 @@ export default async function exchange(code: string) {
   const result = await Promise.allSettled(
     users.map(async (o) => {
       await sleep(500);
-      return await enterUserInfo(o, code);
+      return await enterUserInfo(o, code).catch(e => console.log(`兑换失败: ${e}`));
     }),
   );
   const table = new CliTable({

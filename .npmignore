@@ -4,3 +4,4 @@ src/
 rollup.config.js
 .prettierrc
 **/tmp
+actions/*
