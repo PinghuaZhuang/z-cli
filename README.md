@@ -1,10 +1,10 @@
-# 自用脚本 & 自动签到等
+# 梦幻模拟战手游福利码
 
 ## 每周福利
 
 [![zl-weal](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-weal.yml/badge.svg?branch=master)](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-weal.yml)
 
-## 自动领取福利码
+## 每日自动领取兑换码
 
 [![zl-cdkey](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-cdkey.yml/badge.svg)](https://github.com/PinghuaZhuang/z-cli/actions/workflows/zl-cdkey.yml)
 
