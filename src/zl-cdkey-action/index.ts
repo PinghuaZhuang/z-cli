@@ -11,14 +11,14 @@ import dayjs from 'dayjs';
 
 async function getCdkeys() {
   return openChrome(async (page) => {
-    await sleep(3000);
+    await sleep(10_000);
     const element = await page.waitForSelector('#load');
     if (element == null) {
       console.error(`获取 #load 元素失败`);
       return;
     }
     await element.click();
-    await sleep(3000);
+    await sleep(10_000);
     return await page.$$eval('.bikited-copy', (_) =>
       _.map((o) => (o as HTMLSpanElement).innerText),
     );
