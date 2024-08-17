@@ -40,14 +40,13 @@ async function getCacheKeys() {
   console.log(`>>> 获取到的首页所有礼包码: ${keys.join(', ')}`);
 
   if (newKeys.length <= 0) {
-    console.log(`>>> 今日没有礼包码.`);
+    console.log(`>>> 今日没有新的礼包码.`);
     return;
   }
 
-  notifyWithBark(
-    `${dayjs().format('YYYY-MM-DD')} 有新的礼包码`,
-    newKeys.join(','),
-  );
+  const msg = newKeys.join(',');
+  notifyWithBark(`${dayjs().format('YYYY-MM-DD')} 有新的礼包码`, msg);
+  console.log(`今日礼包码: ${msg}`);
 
   await Promise.allSettled(newKeys.map(exchange));
   await setCacheKeys(keys);
