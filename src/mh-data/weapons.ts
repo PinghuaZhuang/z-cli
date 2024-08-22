@@ -35,7 +35,7 @@ export function weapons2Json(weapons: Weapon[]) {
 export async function getWeapons() {
   return await openChrome<Weapon[]>(async (page) => {
     console.log(`>>> 开始获取武器数据...`);
-    await sleep(10_000);
+    await sleep(5_000);
     const element = await page.waitForSelector('#CardSelectTr tbody');
     if (element == null) {
       console.error(`获取 #load 元素失败`);
