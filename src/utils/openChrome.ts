@@ -1,7 +1,10 @@
 import puppeteer, { Page } from 'puppeteer';
 import path from 'path';
 
-export default async function<T extends unknown> (cb: (page: Page) => Promise<T>, url: string) {
+export default async function <T extends unknown>(
+  cb: (page: Page) => Promise<T>,
+  url: string,
+) {
   return new Promise<T>(async (resove, reject) => {
     const datadir = path.resolve(__dirname, '../tmp/profile/');
     const browser = await puppeteer.launch({
@@ -19,11 +22,11 @@ export default async function<T extends unknown> (cb: (page: Page) => Promise<T>
     );
 
     page.once('load', async () => {
-      const result  = await cb(page);
+      const result = await cb(page);
       await browser.close();
       resove(result);
     });
 
     await page.goto(url);
-  })
+  });
 }
