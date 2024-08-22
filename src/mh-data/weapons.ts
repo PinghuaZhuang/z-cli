@@ -5,7 +5,6 @@
 import openChrome from '@/utils/openChrome';
 import { sleep } from '@/utils';
 import { BASE_URL, separator, LEVEL } from './utils';
-import { EvaluateFuncWith } from 'puppeteer';
 
 interface Weapon {
   name: string;
