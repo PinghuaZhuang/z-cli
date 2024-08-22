@@ -4,6 +4,7 @@
 import { getWeapons, weapons2Json } from './weapons';
 import path from 'path';
 import { writeJsonFile } from '@/utils';
+import dayjs from 'dayjs';
 
 (async () => {
   const weaponDatas = weapons2Json(await getWeapons());
@@ -11,6 +12,13 @@ import { writeJsonFile } from '@/utils';
 
   await writeJsonFile(
     path.resolve(__dirname, `../../data/mn/weapons.json`),
-    JSON.stringify(weaponDatas, null, 2),
+    JSON.stringify(
+      {
+        updateTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),
+        data: weaponDatas,
+      },
+      null,
+      2,
+    ),
   );
 })();
