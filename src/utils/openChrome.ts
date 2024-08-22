@@ -1,8 +1,8 @@
 import puppeteer, { Page } from 'puppeteer';
 import path from 'path';
 
-export default async function (cb: (page: Page) => Promise<unknown>, url: string) {
-  return new Promise(async (resove, reject) => {
+export default async function<T extends unknown> (cb: (page: Page) => Promise<T>, url: string) {
+  return new Promise<T>(async (resove, reject) => {
     const datadir = path.resolve(__dirname, '../tmp/profile/');
     const browser = await puppeteer.launch({
       headless: 'new',

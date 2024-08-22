@@ -17,6 +17,7 @@
     "z": "./bin/z.js"
   },
   "scripts": {
+    "action:mhdata": "ts-node -P ./tsconfig.actions.json -r tsconfig-paths/register ./src/mh-data/index.ts",
     "action:zlcdkey": "ts-node -P ./tsconfig.actions.json -r tsconfig-paths/register ./src/zl-cdkey-action/index.ts",
     "action:zlweal": "ts-node -P ./tsconfig.actions.json -r tsconfig-paths/register ./src/zl-weal-action/index.ts",
     "build": "rollup -c --bundleConfigAsCjs",
