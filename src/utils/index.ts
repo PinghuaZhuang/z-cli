@@ -65,7 +65,7 @@ export async function writeJsonFile(
     fs.writeFile(url, data, 'utf-8', (err) => {
       if (err) return reject(err);
       cb && cb();
-      resolve('写入成功');
+      resolve('>>> 写入成功');
     });
   });
 }

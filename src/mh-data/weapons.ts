@@ -4,9 +4,7 @@
  */
 import openChrome from '@/utils/openChrome';
 import { sleep } from '@/utils';
-
-export const BASE_URL = `https://wiki.biligame.com/langrisser`;
-const separator = '::';
+import { BASE_URL, separator, LEVEL } from './utils';
 
 interface Weapon {
   name: string;
@@ -16,10 +14,12 @@ interface Weapon {
   DEF: number;
   ADF: number;
   SKILL: number;
+  bg: string;
   img: string;
   url: string;
   hero: null | { name: string; url: string; img: string };
   effect: string;
+  level: LEVEL;
 }
 
 export function weapons2Json(weapons: Weapon[]) {
@@ -67,7 +67,12 @@ export async function getWeapons() {
                   const aTag = td.querySelector(
                     'div.equip_name a',
                   ) as HTMLAnchorElement;
-                  return avatar ? `${avatar.src}${separator}${aTag.href}` : '';
+                  const bg = td.querySelector(
+                    'div.equip_lv img',
+                  ) as HTMLImageElement;
+                  return avatar
+                    ? `${avatar.src}${separator}${aTag.href}${separator}${bg.src}`
+                    : '';
                 case 2:
                   const img = td.querySelector('img');
                   const a = td.querySelector('a');
@@ -103,12 +108,14 @@ export async function getWeapons() {
               url: tmp[1],
               hero: data[2]
                 ? {
-                    name: heroArr[0],
+                    name: heroArr[0].split('.')[0],
                     img: heroArr[1],
                     url: heroArr[2],
                   }
                 : null,
               effect: data[4],
+              level: tr.dataset.param2 as LEVEL,
+              bg: tmp[2],
             });
           });
 
