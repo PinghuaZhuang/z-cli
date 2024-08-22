@@ -1,10 +1,11 @@
 import axios from 'axios';
 import dayjs from 'dayjs';
+import fs from 'fs';
 
 const token = process.env.TOKEN;
 
 export function sleep(delay: number) {
-  return new Promise(resolve => setTimeout(resolve, delay))
+  return new Promise((resolve) => setTimeout(resolve, delay));
 }
 
 /**
@@ -53,4 +54,18 @@ export async function getIssues(number = 1) {
     },
   );
   return result.data.body || '';
+}
+
+export async function writeJsonFile(
+  url: string,
+  data: string,
+  cb?: () => void,
+) {
+  return new Promise((resolve, reject) => {
+    fs.writeFile(url, data, 'utf-8', (err) => {
+      if (err) return reject(err);
+      cb && cb();
+      resolve('写入成功');
+    });
+  });
 }
