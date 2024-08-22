@@ -20,5 +20,5 @@ import dayjs from 'dayjs';
       null,
       2,
     ),
-  );
+  ).then(console.log);
 })();
