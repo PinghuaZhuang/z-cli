@@ -1,6 +1,104 @@
 {
-  "updateTime": "2024-08-22T20:54:36+08:00",
+  "updateTime": "2024-10-01T14:51:44+08:00",
   "data": {
+    "始王之胄": {
+      "name": "始王之胄",
+      "HP": 583,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 48,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/3/39/s4kb658lj5h1agmnrt586fhymmd8fap.png/30px-%E5%A7%8B%E7%8E%8B%E4%B9%8B%E8%83%84.png",
+      "url": "https://wiki.biligame.com/langrisser/%E5%A7%8B%E7%8E%8B%E4%B9%8B%E8%83%84",
+      "hero": {
+        "name": "泰兰提尔",
+        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/c/c0/grzxn6epahvu8rkv91r19r6yxqnw8pr.png/40px-%E5%A4%B4%E5%83%8F_%E6%B3%B0%E5%85%B0%E6%8F%90%E5%B0%94.png",
+        "url": "https://wiki.biligame.com/langrisser/%E6%B3%B0%E5%85%B0%E6%8F%90%E5%B0%94"
+      },
+      "effect": "生命+10%/n与拥有[支配令印]的敌军战斗前驱散敌军1个强化效果，并在战斗后恢复造成伤害30%的生命值。若拥有[支配令印]的敌军死亡，获得“下次使用[支配令印]时可以额外选择1个目标”，无法免疫，不可驱散。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "迅银飞刀": {
+      "name": "迅银飞刀",
+      "HP": 0,
+      "STR": 96,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 53,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/f53kbtd4qo93po8td43y4kw5mgddsg6.png/32px-%E8%BF%85%E9%93%B6%E9%A3%9E%E5%88%80.png",
+      "url": "https://wiki.biligame.com/langrisser/%E8%BF%85%E9%93%B6%E9%A3%9E%E5%88%80",
+      "hero": null,
+      "effect": "攻击+10%/n主动攻击进入战斗时，与敌军每相距1格英雄暴击、暴击伤害提升5%。（最高15%）\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "旭日锁甲": {
+      "name": "旭日锁甲",
+      "HP": 437,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 65,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/2a/mg60583pk3mjd9kmznccg986p1a7hiq.png/29px-%E6%97%AD%E6%97%A5%E9%94%81%E7%94%B2.png",
+      "url": "https://wiki.biligame.com/langrisser/%E6%97%AD%E6%97%A5%E9%94%81%E7%94%B2",
+      "hero": null,
+      "effect": "生命、防御+5%/n被攻击进入战斗前，有100%的概率驱散敌军1个强化效果。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "猎魔礼帽": {
+      "name": "猎魔礼帽",
+      "HP": 364,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 65,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/f/f3/o1nnwc8n3fy0057iecu825gc9q2fhn7.png/32px-%E7%8C%8E%E9%AD%94%E7%A4%BC%E5%B8%BD.png",
+      "url": "https://wiki.biligame.com/langrisser/%E7%8C%8E%E9%AD%94%E7%A4%BC%E5%B8%BD",
+      "hero": null,
+      "effect": "生命+10%/n行动结束时，若相邻有其他友军，则使自身及相邻随机1名其他友军获得“遭受范围伤害降低15%”与“免疫无法使用主动技能”，持续1回合。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "海蕴之瓶": {
+      "name": "海蕴之瓶",
+      "HP": 509,
+      "STR": 0,
+      "ATS": 75,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/26/a68lfk9oprzi610t4edxvedbp4ox8ri.png/29px-%E6%B5%B7%E8%95%B4%E4%B9%8B%E7%93%B6.png",
+      "url": "https://wiki.biligame.com/langrisser/%E6%B5%B7%E8%95%B4%E4%B9%8B%E7%93%B6",
+      "hero": null,
+      "effect": "治疗效果+10%、生命+5%/n释放技能时每命中1个友军，自身获得1层“行动结束或被攻击受到伤害时为周围2格内1个生命低于80%的友军恢复1.5倍智力的生命，并移除此效果”，可累积5层，不可驱散。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "黯翼翎盔": {
+      "name": "黯翼翎盔",
+      "HP": 583,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 48,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/4/4e/rqfz7f3bnhowmlzqjsa5etbk8nsk7mc.png/31px-%E9%BB%AF%E7%BF%BC%E7%BF%8E%E7%9B%94.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%BB%AF%E7%BF%BC%E7%BF%8E%E7%9B%94",
+      "hero": {
+        "name": "塔布莉丝",
+        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/17/q6hka4dnibd1ybyzqr6sujkee08q1f7.png/40px-%E5%A4%B4%E5%83%8F_%E5%A1%94%E5%B8%83%E8%8E%89%E4%B8%9D.png",
+        "url": "https://wiki.biligame.com/langrisser/%E5%A1%94%E5%B8%83%E8%8E%89%E4%B8%9D"
+      },
+      "effect": "生命+10%/n友军被敌军攻击受到伤害后，使伤害来源获得1层[黯翎]。使用技能进入战斗时，敌军每具有1层[黯翎]该技能冷却时间减少1回合。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
     "破晓晨风": {
       "name": "破晓晨风",
       "HP": 364,
@@ -1655,21 +1753,6 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
-    "里格重盔": {
-      "name": "里格重盔",
-      "HP": 583,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 48,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/5/52/mvfbfchw77za01b01i2qfmw6rf29hv7.png/30px-%E9%87%8C%E6%A0%BC%E9%87%8D%E7%9B%94.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%87%8C%E6%A0%BC%E9%87%8D%E7%9B%94",
-      "hero": null,
-      "effect": "生命+10%/n护卫友军时，反击伤害提升15%。\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
     "提娅玛特之佑": {
       "name": "提娅玛特之佑",
       "HP": 437,
@@ -1682,6 +1765,21 @@
       "url": "https://wiki.biligame.com/langrisser/%E6%8F%90%E5%A8%85%E7%8E%9B%E7%89%B9%E4%B9%8B%E4%BD%91",
       "hero": null,
       "effect": "生命、魔防+5%/n处于[混合部队]时，部队遭受魔法伤害降低20%。\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "里格重盔": {
+      "name": "里格重盔",
+      "HP": 583,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 48,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/5/52/mvfbfchw77za01b01i2qfmw6rf29hv7.png/30px-%E9%87%8C%E6%A0%BC%E9%87%8D%E7%9B%94.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%87%8C%E6%A0%BC%E9%87%8D%E7%9B%94",
+      "hero": null,
+      "effect": "生命+10%/n护卫友军时，反击伤害提升15%。\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -2128,6 +2226,21 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
+    "最终保暖兵器": {
+      "name": "最终保暖兵器",
+      "HP": 364,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 65,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/4/4f/e0mobb3cz0xxq11prnalp4mw8c408v2.png/30px-%E6%9C%80%E7%BB%88%E4%BF%9D%E6%9A%96%E5%85%B5%E5%99%A8.png",
+      "url": "https://wiki.biligame.com/langrisser/%E6%9C%80%E7%BB%88%E4%BF%9D%E6%9A%96%E5%85%B5%E5%99%A8",
+      "hero": null,
+      "effect": "生命+10%。/n\n行动结束时，使相邻的1名其他友军“遭受伤害”降低15%，且免疫“固定伤害”，持续1回合。\n\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
     "守护者的追忆": {
       "name": "守护者的追忆",
       "HP": 583,
@@ -2144,21 +2257,6 @@
         "url": "https://wiki.biligame.com/langrisser/%E5%85%B0%E8%BF%AA%E4%B9%8C%E6%96%AF"
       },
       "effect": "攻击+10%。/n\n被攻击进入战斗时，如果自身2格范围内有友军部队，则与敌军距离每增加1格，部队遭受伤害降低5%（最多降低15%）。\n\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
-    "最终保暖兵器": {
-      "name": "最终保暖兵器",
-      "HP": 364,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 65,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/4/4f/e0mobb3cz0xxq11prnalp4mw8c408v2.png/30px-%E6%9C%80%E7%BB%88%E4%BF%9D%E6%9A%96%E5%85%B5%E5%99%A8.png",
-      "url": "https://wiki.biligame.com/langrisser/%E6%9C%80%E7%BB%88%E4%BF%9D%E6%9A%96%E5%85%B5%E5%99%A8",
-      "hero": null,
-      "effect": "生命+10%。/n\n行动结束时，使相邻的1名其他友军“遭受伤害”降低15%，且免疫“固定伤害”，持续1回合。\n\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -2295,21 +2393,6 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
-    "尘世之光": {
-      "name": "尘世之光",
-      "HP": 364,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 65,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/d/d6/45v49tvcnra5rpn8r6hpxz06c7zhx8d.png/32px-%E5%B0%98%E4%B8%96%E4%B9%8B%E5%85%89.png",
-      "url": "https://wiki.biligame.com/langrisser/%E5%B0%98%E4%B8%96%E4%B9%8B%E5%85%89",
-      "hero": null,
-      "effect": "生命+10%。/n\n被攻击进入战斗前，自身为[混合部队]则恢复部队10%生命。抵挡[固定伤害]造成的致命一击（每场战斗最多触发1次）。\n\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
     "囚徒的齿轮": {
       "name": "囚徒的齿轮",
       "HP": 509,
@@ -2322,6 +2405,21 @@
       "url": "https://wiki.biligame.com/langrisser/%E5%9B%9A%E5%BE%92%E7%9A%84%E9%BD%BF%E8%BD%AE",
       "hero": null,
       "effect": "攻击+8%。/n\n和“骑兵”战斗时，攻击额外提升12%。\n\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "尘世之光": {
+      "name": "尘世之光",
+      "HP": 364,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 65,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/d/d6/45v49tvcnra5rpn8r6hpxz06c7zhx8d.png/32px-%E5%B0%98%E4%B8%96%E4%B9%8B%E5%85%89.png",
+      "url": "https://wiki.biligame.com/langrisser/%E5%B0%98%E4%B8%96%E4%B9%8B%E5%85%89",
+      "hero": null,
+      "effect": "生命+10%。/n\n被攻击进入战斗前，自身为[混合部队]则恢复部队10%生命。抵挡[固定伤害]造成的致命一击（每场战斗最多触发1次）。\n\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -2431,25 +2529,6 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
-    "驭龙之冠": {
-      "name": "驭龙之冠",
-      "HP": 437,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 59,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/a/a0/flvtrod3fhhy962ngqif1ij52laik75.png/32px-%E9%A9%AD%E9%BE%99%E4%B9%8B%E5%86%A0.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%A9%AD%E9%BE%99%E4%B9%8B%E5%86%A0",
-      "hero": {
-        "name": "蕾娜塔",
-        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/f/f2/70ibya785nlcoyt62dn4tkop6k821bn.png/40px-%E5%A4%B4%E5%83%8F_%E8%95%BE%E5%A8%9C%E5%A1%94.png",
-        "url": "https://wiki.biligame.com/langrisser/%E8%95%BE%E5%A8%9C%E5%A1%94"
-      },
-      "effect": "生命、魔防+5%。/n\n对敌方施加的弱化效果持续回合+1。每次触发天赋时使自身获得[御风]，且免疫：\"攻击、智力降低\"、\"无法使用主动技能\"，持续2回合。可以享受[流星直击]超绝效果。\n\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
     "逆羽的假面": {
       "name": "逆羽的假面",
       "HP": 583,
@@ -2466,6 +2545,25 @@
         "url": "https://wiki.biligame.com/langrisser/%E5%B8%8C%E7%90%B3%E5%8D%A1"
       },
       "effect": "防御+10%。/n\n主动攻击进入战斗，造成伤害提升12%。对自己施加的强化效果持续回合+1，在休眠状态下身上的增益效果回合数不会减少。\n\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "驭龙之冠": {
+      "name": "驭龙之冠",
+      "HP": 437,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 59,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/a/a0/flvtrod3fhhy962ngqif1ij52laik75.png/32px-%E9%A9%AD%E9%BE%99%E4%B9%8B%E5%86%A0.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%A9%AD%E9%BE%99%E4%B9%8B%E5%86%A0",
+      "hero": {
+        "name": "蕾娜塔",
+        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/f/f2/70ibya785nlcoyt62dn4tkop6k821bn.png/40px-%E5%A4%B4%E5%83%8F_%E8%95%BE%E5%A8%9C%E5%A1%94.png",
+        "url": "https://wiki.biligame.com/langrisser/%E8%95%BE%E5%A8%9C%E5%A1%94"
+      },
+      "effect": "生命、魔防+5%。/n\n对敌方施加的弱化效果持续回合+1。每次触发天赋时使自身获得[御风]，且免疫：\"攻击、智力降低\"、\"无法使用主动技能\"，持续2回合。可以享受[流星直击]超绝效果。\n\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -2526,6 +2624,21 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
+    "氤氲之心": {
+      "name": "氤氲之心",
+      "HP": 0,
+      "STR": 75,
+      "ATS": 0,
+      "DEF": 43,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/3/34/er4fb09qbxaillpa4bubnhy2dhzuks4.png/32px-%E6%B0%A4%E6%B0%B2%E4%B9%8B%E5%BF%83.png",
+      "url": "https://wiki.biligame.com/langrisser/%E6%B0%A4%E6%B0%B2%E4%B9%8B%E5%BF%83",
+      "hero": null,
+      "effect": "全属性+5%。/n\n免疫“伤口诅咒（遭受治疗转化为伤害）”、“治疗反转（施加的治疗转化为伤害）”。\n\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
     "卡奥斯的赐福": {
       "name": "卡奥斯的赐福",
       "HP": 583,
@@ -2542,21 +2655,6 @@
         "url": "https://wiki.biligame.com/langrisser/%E6%B3%A2%E8%B5%9E%E9%B2%81"
       },
       "effect": "魔防+10%。/n\n主动对敌军造成伤害后，对其施加1个随机的弱化效果。\n\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
-    "氤氲之心": {
-      "name": "氤氲之心",
-      "HP": 0,
-      "STR": 75,
-      "ATS": 0,
-      "DEF": 43,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/3/34/er4fb09qbxaillpa4bubnhy2dhzuks4.png/32px-%E6%B0%A4%E6%B0%B2%E4%B9%8B%E5%BF%83.png",
-      "url": "https://wiki.biligame.com/langrisser/%E6%B0%A4%E6%B0%B2%E4%B9%8B%E5%BF%83",
-      "hero": null,
-      "effect": "全属性+5%。/n\n免疫“伤口诅咒（遭受治疗转化为伤害）”、“治疗反转（施加的治疗转化为伤害）”。\n\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -2605,25 +2703,6 @@
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
-    "炎龙金辉": {
-      "name": "炎龙金辉",
-      "HP": 437,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 65,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/1e/hadjhwrnep0j6jona21m2o2br02ai2d.png/30px-%E7%82%8E%E9%BE%99%E9%87%91%E8%BE%89.png",
-      "url": "https://wiki.biligame.com/langrisser/%E7%82%8E%E9%BE%99%E9%87%91%E8%BE%89",
-      "hero": {
-        "name": "巴尔加斯",
-        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/8/84/3edl25ml4af8sxgvzwtzqs8qiumdjdk.png/40px-%E5%A4%B4%E5%83%8F_%E5%B7%B4%E5%B0%94%E5%8A%A0%E6%96%AF.png",
-        "url": "https://wiki.biligame.com/langrisser/%E5%B7%B4%E5%B0%94%E5%8A%A0%E6%96%AF"
-      },
-      "effect": "防御+10%。/n\n自身拥有[力突]效果时，可以反击2格的远程攻击。\n\n",
-      "level": "SSR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
-    },
     "圣灵之触": {
       "name": "圣灵之触",
       "HP": 0,
@@ -2640,6 +2719,25 @@
         "url": "https://wiki.biligame.com/langrisser/%E9%98%BF%E5%8D%A1%E5%A8%85"
       },
       "effect": "攻击、智力+10%。/n\n行动结束时，在自己身边召唤一个[狼魂]，此狼魂的属性继承自阿卡娅的当前属性的75%。（[狼魂同时只能存在一只，该效果每场战斗最多触发1次）\n\n",
+      "level": "SSR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
+    },
+    "炎龙金辉": {
+      "name": "炎龙金辉",
+      "HP": 437,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 65,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/1e/hadjhwrnep0j6jona21m2o2br02ai2d.png/30px-%E7%82%8E%E9%BE%99%E9%87%91%E8%BE%89.png",
+      "url": "https://wiki.biligame.com/langrisser/%E7%82%8E%E9%BE%99%E9%87%91%E8%BE%89",
+      "hero": {
+        "name": "巴尔加斯",
+        "img": "https://patchwiki.biligame.com/images/langrisser/thumb/8/84/3edl25ml4af8sxgvzwtzqs8qiumdjdk.png/40px-%E5%A4%B4%E5%83%8F_%E5%B7%B4%E5%B0%94%E5%8A%A0%E6%96%AF.png",
+        "url": "https://wiki.biligame.com/langrisser/%E5%B7%B4%E5%B0%94%E5%8A%A0%E6%96%AF"
+      },
+      "effect": "防御+10%。/n\n自身拥有[力突]效果时，可以反击2格的远程攻击。\n\n",
       "level": "SSR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/4/47/rzevmg8f82coessfna279ynsti0dafq.png/40px-%E8%83%8C%E6%99%AFSSR.png"
     },
@@ -6430,6 +6528,21 @@
       "level": "SR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/8/83/ffim140i6umlw2p57j79c9z6itrgde3.png/40px-%E8%83%8C%E6%99%AFSR.png"
     },
+    "链枷": {
+      "name": "链枷",
+      "HP": 414,
+      "STR": 55,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/1b/lnrk0nfed9hr0zem7gkhb0elqjnios4.png/30px-%E9%93%BE%E6%9E%B7.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%93%BE%E6%9E%B7",
+      "hero": null,
+      "effect": "生命+10%\n",
+      "level": "SR",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/8/83/ffim140i6umlw2p57j79c9z6itrgde3.png/40px-%E8%83%8C%E6%99%AFSR.png"
+    },
     "烈焰枪": {
       "name": "烈焰枪",
       "HP": 363,
@@ -6487,21 +6600,6 @@
       "url": "https://wiki.biligame.com/langrisser/%E8%B4%B5%E6%97%8F%E5%88%BA%E5%88%83",
       "hero": null,
       "effect": "攻击+10%\n",
-      "level": "SR",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/8/83/ffim140i6umlw2p57j79c9z6itrgde3.png/40px-%E8%83%8C%E6%99%AFSR.png"
-    },
-    "链枷": {
-      "name": "链枷",
-      "HP": 414,
-      "STR": 55,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/1b/lnrk0nfed9hr0zem7gkhb0elqjnios4.png/30px-%E9%93%BE%E6%9E%B7.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%93%BE%E6%9E%B7",
-      "hero": null,
-      "effect": "生命+10%\n",
       "level": "SR",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/8/83/ffim140i6umlw2p57j79c9z6itrgde3.png/40px-%E8%83%8C%E6%99%AFSR.png"
     },
@@ -6685,21 +6783,6 @@
       "level": "R",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
     },
-    "蓝宝石项链": {
-      "name": "蓝宝石项链",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/8/87/ftpe59xy154a30xct3yjbu3czox5bko.png/31px-%E8%93%9D%E5%AE%9D%E7%9F%B3%E9%A1%B9%E9%93%BE.png",
-      "url": "https://wiki.biligame.com/langrisser/%E8%93%9D%E5%AE%9D%E7%9F%B3%E9%A1%B9%E9%93%BE",
-      "hero": null,
-      "effect": "\n",
-      "level": "R",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
-    },
     "力量指环": {
       "name": "力量指环",
       "HP": 0,
@@ -6710,6 +6793,21 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/6/65/jrg5v6w3olzsirey329hlwbddm7aede.png/32px-%E5%8A%9B%E9%87%8F%E6%8C%87%E7%8E%AF.png",
       "url": "https://wiki.biligame.com/langrisser/%E5%8A%9B%E9%87%8F%E6%8C%87%E7%8E%AF",
+      "hero": null,
+      "effect": "\n",
+      "level": "R",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
+    },
+    "蓝宝石项链": {
+      "name": "蓝宝石项链",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/8/87/ftpe59xy154a30xct3yjbu3czox5bko.png/31px-%E8%93%9D%E5%AE%9D%E7%9F%B3%E9%A1%B9%E9%93%BE.png",
+      "url": "https://wiki.biligame.com/langrisser/%E8%93%9D%E5%AE%9D%E7%9F%B3%E9%A1%B9%E9%93%BE",
       "hero": null,
       "effect": "\n",
       "level": "R",
@@ -6805,6 +6903,21 @@
       "level": "R",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
     },
+    "镶钉革铠": {
+      "name": "镶钉革铠",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/b/b8/s4rpmd8wgixrtm0bq4az1chkj91wxvs.png/32px-%E9%95%B6%E9%92%89%E9%9D%A9%E9%93%A0.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%95%B6%E9%92%89%E9%9D%A9%E9%93%A0",
+      "hero": null,
+      "effect": "\n",
+      "level": "R",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
+    },
     "战意背心": {
       "name": "战意背心",
       "HP": 0,
@@ -6850,36 +6963,6 @@
       "level": "R",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
     },
-    "魔力斗篷": {
-      "name": "魔力斗篷",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/14/0g6gewrgcsvm12eu1x9x7mpy0p4xyx8.png/24px-%E9%AD%94%E5%8A%9B%E6%96%97%E7%AF%B7.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%AD%94%E5%8A%9B%E6%96%97%E7%AF%B7",
-      "hero": null,
-      "effect": "\n",
-      "level": "R",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
-    },
-    "镶钉革铠": {
-      "name": "镶钉革铠",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/b/b8/s4rpmd8wgixrtm0bq4az1chkj91wxvs.png/32px-%E9%95%B6%E9%92%89%E9%9D%A9%E9%93%A0.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%95%B6%E9%92%89%E9%9D%A9%E9%93%A0",
-      "hero": null,
-      "effect": "\n",
-      "level": "R",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
-    },
     "斗气铠": {
       "name": "斗气铠",
       "HP": 0,
@@ -6895,6 +6978,21 @@
       "level": "R",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
     },
+    "魔力斗篷": {
+      "name": "魔力斗篷",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/14/0g6gewrgcsvm12eu1x9x7mpy0p4xyx8.png/24px-%E9%AD%94%E5%8A%9B%E6%96%97%E7%AF%B7.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%AD%94%E5%8A%9B%E6%96%97%E7%AF%B7",
+      "hero": null,
+      "effect": "\n",
+      "level": "R",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
+    },
     "硬木弓": {
       "name": "硬木弓",
       "HP": 0,
@@ -6905,21 +7003,6 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/d/d6/49drhpjpd4o9r3itc8xtyop60fufmje.png/32px-%E7%A1%AC%E6%9C%A8%E5%BC%93.png",
       "url": "https://wiki.biligame.com/langrisser/%E7%A1%AC%E6%9C%A8%E5%BC%93",
-      "hero": null,
-      "effect": "\n",
-      "level": "R",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
-    },
-    "骑士枪": {
-      "name": "骑士枪",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/c/c1/ikpkd4m8eynz8uxzbiknx97gzp4c790.png/32px-%E9%AA%91%E5%A3%AB%E6%9E%AA.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%AA%91%E5%A3%AB%E6%9E%AA",
       "hero": null,
       "effect": "\n",
       "level": "R",
@@ -6950,6 +7033,21 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/d/d5/7afpmuv04vh615bxe6rgyoxkgko21gz.png/32px-%E6%88%98%E6%96%A7.png",
       "url": "https://wiki.biligame.com/langrisser/%E6%88%98%E6%96%A7",
+      "hero": null,
+      "effect": "\n",
+      "level": "R",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
+    },
+    "骑士枪": {
+      "name": "骑士枪",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/c/c1/ikpkd4m8eynz8uxzbiknx97gzp4c790.png/32px-%E9%AA%91%E5%A3%AB%E6%9E%AA.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%AA%91%E5%A3%AB%E6%9E%AA",
       "hero": null,
       "effect": "\n",
       "level": "R",
@@ -7000,21 +7098,6 @@
       "level": "R",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
     },
-    "魔导士之杖": {
-      "name": "魔导士之杖",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/23/8y6oajuaws6vq80p5o2uqcidaf4f3nw.png/31px-%E9%AD%94%E5%AF%BC%E5%A3%AB%E4%B9%8B%E6%9D%96.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%AD%94%E5%AF%BC%E5%A3%AB%E4%B9%8B%E6%9D%96",
-      "hero": null,
-      "effect": "\n",
-      "level": "R",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
-    },
     "大剑": {
       "name": "大剑",
       "HP": 0,
@@ -7025,6 +7108,21 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/7/79/l8kgbcg303adimyxgfz3vreaz85rjjn.png/32px-%E5%A4%A7%E5%89%91.png",
       "url": "https://wiki.biligame.com/langrisser/%E5%A4%A7%E5%89%91",
+      "hero": null,
+      "effect": "\n",
+      "level": "R",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/5/53/fqt8q63y2yrsupuiar4kgm824179k9i.png/40px-%E8%83%8C%E6%99%AFR.png"
+    },
+    "魔导士之杖": {
+      "name": "魔导士之杖",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/23/8y6oajuaws6vq80p5o2uqcidaf4f3nw.png/31px-%E9%AD%94%E5%AF%BC%E5%A3%AB%E4%B9%8B%E6%9D%96.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%AD%94%E5%AF%BC%E5%A3%AB%E4%B9%8B%E6%9D%96",
       "hero": null,
       "effect": "\n",
       "level": "R",
@@ -7120,21 +7218,6 @@
       "level": "N",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
     },
-    "锁子甲": {
-      "name": "锁子甲",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/5/55/j84abrh89d1z2gcuz5lki3kdbkf3o2k.png/28px-%E9%94%81%E5%AD%90%E7%94%B2.png",
-      "url": "https://wiki.biligame.com/langrisser/%E9%94%81%E5%AD%90%E7%94%B2",
-      "hero": null,
-      "effect": "\n",
-      "level": "N",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
-    },
     "硬皮甲": {
       "name": "硬皮甲",
       "HP": 0,
@@ -7145,6 +7228,21 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/1/1d/d3ed1awcs8ah82gn6imacczicyn77hw.png/25px-%E7%A1%AC%E7%9A%AE%E7%94%B2.png",
       "url": "https://wiki.biligame.com/langrisser/%E7%A1%AC%E7%9A%AE%E7%94%B2",
+      "hero": null,
+      "effect": "\n",
+      "level": "N",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
+    },
+    "锁子甲": {
+      "name": "锁子甲",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/5/55/j84abrh89d1z2gcuz5lki3kdbkf3o2k.png/28px-%E9%94%81%E5%AD%90%E7%94%B2.png",
+      "url": "https://wiki.biligame.com/langrisser/%E9%94%81%E5%AD%90%E7%94%B2",
       "hero": null,
       "effect": "\n",
       "level": "N",
@@ -7240,21 +7338,6 @@
       "level": "N",
       "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
     },
-    "手杖": {
-      "name": "手杖",
-      "HP": 0,
-      "STR": 0,
-      "ATS": 0,
-      "DEF": 0,
-      "ADF": 0,
-      "SKILL": 0,
-      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/29/32dusngwuchkj1suuasxe4vnmqdjlw6.png/31px-%E6%89%8B%E6%9D%96.png",
-      "url": "https://wiki.biligame.com/langrisser/%E6%89%8B%E6%9D%96",
-      "hero": null,
-      "effect": "\n",
-      "level": "N",
-      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
-    },
     "长剑": {
       "name": "长剑",
       "HP": 0,
@@ -7265,6 +7348,21 @@
       "SKILL": 0,
       "img": "https://patchwiki.biligame.com/images/langrisser/thumb/0/0c/gqseed5g2ybpl7d6rt75vmn40jng2rp.png/31px-%E9%95%BF%E5%89%91.png",
       "url": "https://wiki.biligame.com/langrisser/%E9%95%BF%E5%89%91",
+      "hero": null,
+      "effect": "\n",
+      "level": "N",
+      "bg": "https://patchwiki.biligame.com/images/langrisser/thumb/7/7b/5hma4e2u2g1vdjcsvtfitx1ehf06sfy.png/40px-%E8%83%8C%E6%99%AFN.png"
+    },
+    "手杖": {
+      "name": "手杖",
+      "HP": 0,
+      "STR": 0,
+      "ATS": 0,
+      "DEF": 0,
+      "ADF": 0,
+      "SKILL": 0,
+      "img": "https://patchwiki.biligame.com/images/langrisser/thumb/2/29/32dusngwuchkj1suuasxe4vnmqdjlw6.png/31px-%E6%89%8B%E6%9D%96.png",
+      "url": "https://wiki.biligame.com/langrisser/%E6%89%8B%E6%9D%96",
       "hero": null,
       "effect": "\n",
       "level": "N",
