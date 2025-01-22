@@ -12,7 +12,7 @@ export default async function <T extends unknown>(
       // openInExistingWindow: true,
       ignoreHTTPSErrors: true,
       userDataDir: datadir,
-      args: [],
+      args: ['--no-sandbox'],
     });
 
     const page = await browser.newPage();
